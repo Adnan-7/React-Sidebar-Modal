@@ -2,13 +2,15 @@ import React from 'react';
 import { FaTimes } from 'react-icons/fa';
 import logo from './logo.svg';
 import { links, social } from './data';
+import { useCustomHooks } from './context';
 
 const Sidebar = () => {
+  const { isSidebarOpen, closeSidebar } = useCustomHooks();
   return (
-    <aside className='sidebar show-sidebar'>
+    <aside className={`${isSidebarOpen ? 'sidebar show-sidebar' : 'sidebar'} `}>
       <div className='sidebar-header'>
         <img src={logo} className='logo' alt='Adnan Khan' />
-        <button className='close-btn'>
+        <button className='close-btn' onClick={closeSidebar}>
           <FaTimes />
         </button>
       </div>
