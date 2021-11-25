@@ -1,7 +1,16 @@
 import React from 'react';
+import Home from './home';
+import Modal from './modal';
+import Sidebar from './sidebar';
 
 function App() {
-  return <div>hello</div>;
+  return (
+    <>
+      <Home />
+      <Sidebar />
+      <Modal />
+    </>
+  );
 }
 
 export default App;
