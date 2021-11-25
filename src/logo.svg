@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="230" height="47" viewBox="0 0 230 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g filter="url(#filter0_d)"/>
+  <defs>
+    <filter id="filter0_d" x="0.758789" y="9.5" width="229.171" height="36.7402" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="2"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+  </defs>
+  <text style="fill: rgb(43, 42, 42); font-family: Arial, sans-serif; font-size: 5.5px; white-space: pre;" transform="matrix(5.213691, 0, 0, 5.619211, -120.142487, -90.205238)" x="24.238" y="21.67">Adnan</text>
+  <text style="fill: rgb(61, 155, 213); font-family: Arial, sans-serif; font-size: 5.5px; white-space: pre;" transform="matrix(5.634666, 0, 0, 5.381921, -787.168335, -74.30249)" x="156.627" y="19.694">Khan</text>
+</svg>
