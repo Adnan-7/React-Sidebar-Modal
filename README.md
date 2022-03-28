@@ -1,4 +1,4 @@
-# React Sidebar Modal
+## React Sidebar Modal
 
 
 # Getting Started with Create React App
